@@ -10,5 +10,14 @@ Documentation and Issues for the domain search engine [domains.ciko.io](http://d
 1. The tool generates a list of domains to scan, and then scans them. This may take up to 20 minutes, depending on the keyword and scan configuration. You may periodically reload the page to see newly found domains.
 1. You can click on any search result to get an overview of its DNS records and subdomains.
 
+### Access Token
+The tool is publicly usable but requires an access token that are consumed per scan. [https://github.com/c1ko](ciko) distributes access token on various channels. If you need some access token out of sequence, please mail me at domains@ciko.io. 
+
 ## Engines
 domains.ciko.io uses 3 engines to find squatting domains: Active DNS probing, scans of certificate transparency logs, and scans in TI datafeeds. All three engines are enabled by default. You can disable and configure the scan settings on the main page before starting the scan.
+
+## Limitations
+The tool is currently limited to 10,000 found domains and 100,000 DNS scans per keyword to limit network usage. 
+
+## Issues / Contact
+You may submit issues and requests via GitHub issues. You can also use domains@ciko.io for that purpose.
