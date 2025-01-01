@@ -2,7 +2,7 @@
 
 Documentation and Issues for the domain search engine [domains.ciko.io](http://domains.ciko.io). This repository does not contain source code.
 
-## About the website
+## About the tool
 [domains.ciko.io](http://domains.ciko.io) enables you to to find registered domain names that reassemble a given keyword. The results are useful to find phishing domains or shadow infrastructure. Instead of only scanning for the keyword, the tool also scans for deviations (also called squatting domains) that are similar to the given keyword.
 
 ## Quickstart
