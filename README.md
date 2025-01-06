@@ -13,6 +13,8 @@ Documentation and Issues for the domain search engine [domains.ciko.io](http://d
 ### Access Token
 The tool is publicly usable but requires an access token that are consumed per scan. [ciko](https://github.com/c1ko) distributes access token on various channels. If you need some access token out of sequence, please mail me at domains@ciko.io. 
 
+I issue access token to rate limit the usage of the tool and limit waiting times. DNS scanning and enriching are network-heavy and longer lasting tasks. I provide for the entire infrastructure out of private funds, so it cannot be scaled like a commercial product.
+
 ## Engines
 domains.ciko.io uses 3 engines to find squatting domains: Active DNS probing, scans of certificate transparency logs, and scans in TI datafeeds. All three engines are enabled by default. You can disable and configure the scan settings on the main page before starting the scan.
 
