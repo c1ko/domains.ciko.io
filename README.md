@@ -23,3 +23,8 @@ The tool is currently limited to 10,000 found domains and 100,000 DNS scans per 
 
 ## Issues / Contact
 You may submit issues and requests via GitHub issues. You can also use domains@ciko.io for that purpose.
+
+## Acknowledgements
+
+- This tool uses the permutation engine of [dnstwist](https://github.com/elceef/dnstwist).
+- Certificates for scanning are collected with [certstream](https://github.com/CaliDog/certstream-server).
